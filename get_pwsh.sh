@@ -11,7 +11,7 @@ sudo apt-get install -y wget apt-transport-https software-properties-common
 source /etc/os-release
 
 # Download the Microsoft repository keys
-wget -q https://packages.microsoft.com/config/ubuntu/$VERSION_ID/packages-microsoft-prod.deb
+wget -q https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb
 
 # Register the Microsoft repository keys
 sudo dpkg -i packages-microsoft-prod.deb
