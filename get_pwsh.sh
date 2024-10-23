@@ -24,7 +24,7 @@ sudo apt-get update
 
 ###################################
 # Install PowerShell
-sudo apt-get install -y powershell
+sudo apt-get install -y powershell-preview
 
 # Start PowerShell
 pwsh
